@@ -1,5 +1,3 @@
-# Intro to Big Data
-
 # Week 3: Getting Started with Hadoop
 
 ## The 4Ws and H of Hadoop
