@@ -30,3 +30,13 @@ Types of Constraints:
 - Type constraint: _Last Name_ is alphabetical
 - Domain constraint: possible set of values allowed for that fields; Days can be between 1 and 31
 
+# Different Kinds of Data Models
+
+## Relational Data Model ##
+It is one of the simplest and most frequently used data models today, and forms the basis of many other traditional database management systems, like MySQL, Oracle, Teradata, and so forth. The primary data structure for a relational model is a table. Tuples are rows. Primary key is the key to relate the fields to one another.
+
+ ## Semi-structured Data Model ##
+ In an HTML, the structure of the code is in terms of blocks (header, body, etc). Also unlike a relational structure there are multiple list items and multiple paragraphs. <br/>
+Another example is XML. XML as a generalization of HTML where the elements, that's the beginning and end markers within the angular brackets, can be any string. <br/>
+The same idea can also be seen in JSON or the Java Script Object Notation, which is a very popular format used for many different data like Twitter and Facebook. <br/>
+All these have a **tree data structure**. A tree structure allows navigational model.
