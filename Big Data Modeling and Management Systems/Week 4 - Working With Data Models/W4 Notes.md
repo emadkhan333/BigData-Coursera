@@ -37,7 +37,7 @@ Finally, algorithms for processing streaming data must be relatively fast and si
 With big data streaming from different sources in varying formats, models, and speeds it is no surprise that we need to be able to ingest this data into a fast and scalable storage system that is flexible enough to serve many current and future analytical processes. 
 This is when traditional data warehouses with strict data models and data formats don't fit the big data challenges for streaming and batch applications. The concept of a data lake was created in response of these data big storage and processing challenges. 
 
-## What is a data lake?## 
+## What is a data lake? ## 
 A data lake is a part of a big data infrastructure that many streams can flow into and get stored for processing in their original form. We can think of it as a massive storage depository with huge processing power and ability to handle a very large number of concurrence, data management and analytical tasks. 
 
 "If you think of a datamart as a store of bottled water, cleansed and packaged and structured for easy consumption, the data lake is a large body of water in a more natural state. The contents of the data lake stream in from a source to fill the lake, and various users of the lake can come to examine it, dive in, or take samples. A data lake works as follows." 
