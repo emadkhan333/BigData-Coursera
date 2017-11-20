@@ -52,7 +52,7 @@ Visualizing data, that is looking at data graphically, is a great way to explore
 - line plot
 - scatter plot
 - bar plot
-- box plot. 
+- box plot </br>
 *Histogram*
 A histogram is used to display the distribution of a variable. The range of values for the variable is divided into the number of bins, and the number of values that fall into each bin is counted. Which determines the height of each bin. 
  
