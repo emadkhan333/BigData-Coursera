@@ -71,9 +71,9 @@ The next step in the machine learning process is to prepare the data. This step 
 - Pre-Process Data: data for analysis. This includes cleaning data, selecting the variables to use, and transforming data to make the data more suitable for analysis in the next step. 
 *Data Exploration*
 In data exploration, you want to do some preliminary investigation in order to gain a better understanding of the specific characteristics of your data. This in turn will guide the rest of the process. With data exploration, you'll want to look for things like correlations, general trends, outliers, etc. Correlations provide information about the relationship between variables in your data. Trends in your data will reveal if the variable is moving in a certain direction, such as transaction volume increasing throughout the year. Outliers indicate potential problems with the data, or may indicate an interesting data point that needs further examination. Without this data exploration activity, you will not be able to use your data effectively. 
-- Summary Statistics
+- Summary Statistics: </br>
 One way to explore your data is to calculate summary statistics to numerically describe the data. Summary statistics are quantities that capture various characteristics of a set of values with a single number, or a small set of numbers. Some basic summary statistics that you should compute for your data set are mean, median, mode, range and standard deviation. Mean and median are measures of the location of a set of values. Mode is the value that occurs most frequently in your data set, and range and standard deviation are measures of spread in your data. Looking at these measures will give you an idea of the nature of your data. They can tell you if there's something wrong with your data. For example, if the range of the values for age in your data includes negative numbers, or a number much greater than a hundred, there's something suspicious in the data that needs to be examined. 
-- Visualization 
+- Visualization:</br>
 Visualization techniques also provide quick and effective ways to explore your data. Some examples are, a histogram, such as the plot shown here, shows the distribution of the data and can show skewness or unusual dispersion in outliers. A line plot, like the one in the lower left, can be used to look at trends in the data, such as, the change in the price of a stock.  A heat map can give you an idea of where the hot spots are. A scatter plot effectively shows correlation between two variables. Overall, there are many types of plots to visualize data. They are very useful in helping you understand the data you have. 
 *Pre-process Data*
 The second part of the prepare step is preprocess. So, after we've explored the data, we need to preprocess the data to prepare it for analysis. The goal here is to create the data that will be used for analysis. The main activities on this part are to clean the data, select the appropriate variables to use and transform the data as needed. 
@@ -164,16 +164,3 @@ Spark is a distributed computing platform. MLlib is a scalable machine learning 
  
 
 MLlib is not a GUI-based approach. Writing code is required to implement operations in MLlib.  MLlib, as with the base Spark core, provides an application programming interface, or API, for Java, Python, Scala and R. This means that you can write code in these programming languages to execute the base operations provided in Spark. 
-Spark MLlib runs on a distributed platform. It provides machine learning algorithms and techniques that are implemented using distributed processing. So MLlib is used for processing and analyzing large datasets. 
-
-
-
-
-
-Week 2 - Data Exploration & Data Preparation
-
-Week 3 – Classification
-
-Week 4 - Evaluation of Machine Learning Models
-
-Week 5 - Regression, Cluster Analysis, and Association Analysis
