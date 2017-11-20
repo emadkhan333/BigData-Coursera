@@ -55,12 +55,14 @@ Visualizing data, that is looking at data graphically, is a great way to explore
 - box plot </br>
 
 **Histogram**
+
 A histogram is used to display the distribution of a variable. The range of values for the variable is divided into the number of bins, and the number of values that fall into each bin is counted. Which determines the height of each bin. 
  
 A histogram can reveal many things about a variable in your data, for example, you can usually determine the central tendency of a variable, that is where the majority of the values lie. You can also see the most frequent value of values for that variable. 
 A histogram also shows whether the values for that variable are skewed and whether the skewness is to the left towards smaller values or to the right towards larger values. You can also pick outliers in the histogram as shown on the bottom plot. </br>
 
 **Line Plot**
+
 A line plot shows how data values change over time. The values of a variable or variables are shown on the Y axis and the X axis shows the motion of time. The resulting line displays the data values over time. 
 
 A line plot can show patterns in your variables. For example, a cyclical pattern can be detected as in this plot, where the values start high, then decrease and go back up again. 
@@ -69,6 +71,7 @@ Trends can also be detected as shown in the upper-right plot where the values fl
 It is also easy to compare how multiple variables change over time on a single line plot as displayed in the center bottom plot. </br>
 
 **Scatter Plot**
+
 A scatter plot is a great way to visualize the relationship between two variables. One variable is on the x axis. The other variable is on the y axis Each sample is a product using the values of the 2 variables aspects and Y coordinates. The resulting plot shows how one variable changes as the other is changed. 
 
 A scatter plot can be used to display the correlation between 2 variables. For example, 2 variables such as the high temperature of the day, and the low temperature of the day, can have a positive correlation as shown in this plot. 
@@ -82,6 +85,7 @@ Two variables can also have a non-linear correlation as shown in the lower left 
 There can also be no correlation between two variables. In this case, you will see something like randomly placed dots as displayed in the lower right plot, indicating no relationship between how the two variables change with respect to each other.</br>
 
 **Bar Plot**
+
 A bar plot is used to show the distribution of categorical variables. Recall that a histogram is also used to look at the distribution of the values of the variable. The difference is that in general, a histogram is used for numeric variables whereas a bar plot is used for categorical variables. In a bar chart, the different categories of a categorical variable is shown along the x-axis, and the count of instances for each category is displayed on the y-axis. This is an effective way to compare the different categories. 
  
 A bar plot is also a great way to compare two categorical variables. For example, this plot compares two categorical variables. One in blue and the other in orange, each with three different categories. Here you can see that for the first category, the blue variable has the higher count, while the orange variable has a higher count for the second and third category. This type of Bar Plot is called a Grouped Bar Chart. And the different variables of products side by side. 
