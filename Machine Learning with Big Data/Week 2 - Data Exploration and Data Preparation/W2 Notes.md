@@ -9,9 +9,9 @@ Data exploration means doing some preliminary investigation of your data set. Th
 There are two main categories of techniques to explore your data
 - summary statistics
 - visualization. 
-*Summary Statistics*
+**Summary Statistics**
 Summary statistics provide important information that summarizes a set of data values. There are many such statistics such as mean, median, and standard deviation. A summary statistic provides a single quantity that summarizes some aspects of the dataset. For example, the mean, is a single value that describes the average value of the dataset, no matter how large that dataset.
-*Visualization*
+**Visualization**
 Data visualization techniques allow you to look at your data, graphically. There are several types of plots that you can use to visualize your data. Some examples are histogram, line plot, and scatter plot. Each type of plot serves a different purpose.
 *Why to do Data Exploration*
 You use statistics and visual methods to summarize and describe your dataset, and some of the things you'll want to look for are 
@@ -53,31 +53,41 @@ Visualizing data, that is looking at data graphically, is a great way to explore
 - scatter plot
 - bar plot
 - box plot </br>
-*Histogram*
+
+**Histogram**
 A histogram is used to display the distribution of a variable. The range of values for the variable is divided into the number of bins, and the number of values that fall into each bin is counted. Which determines the height of each bin. 
  
 A histogram can reveal many things about a variable in your data, for example, you can usually determine the central tendency of a variable, that is where the majority of the values lie. You can also see the most frequent value of values for that variable. 
-A histogram also shows whether the values for that variable are skewed and whether the skewness is to the left towards smaller values or to the right towards larger values. You can also pick outliers in the histogram as shown on the bottom plot. 
-*Line Plot*
+A histogram also shows whether the values for that variable are skewed and whether the skewness is to the left towards smaller values or to the right towards larger values. You can also pick outliers in the histogram as shown on the bottom plot. </br>
+
+**Line Plot**
 A line plot shows how data values change over time. The values of a variable or variables are shown on the Y axis and the X axis shows the motion of time. The resulting line displays the data values over time. 
- 
+
 A line plot can show patterns in your variables. For example, a cyclical pattern can be detected as in this plot, where the values start high, then decrease and go back up again. 
+
 Trends can also be detected as shown in the upper-right plot where the values fluctuate but show a general upward trend over time. 
-It is also easy to compare how multiple variables change over time on a single line plot as displayed in the center bottom plot. 
-*Scatter Plot*
+It is also easy to compare how multiple variables change over time on a single line plot as displayed in the center bottom plot. </br>
+
+**Scatter Plot**
 A scatter plot is a great way to visualize the relationship between two variables. One variable is on the x axis. The other variable is on the y axis Each sample is a product using the values of the 2 variables aspects and Y coordinates. The resulting plot shows how one variable changes as the other is changed. 
+
 A scatter plot can be used to display the correlation between 2 variables. For example, 2 variables such as the high temperature of the day, and the low temperature of the day, can have a positive correlation as shown in this plot. 
  
 A positive correlation means that as the value of one variable increases, the value of the other variable also increases by a similar amount. 
+
 The upper right scatter plot shows a negative correlation between two variables. This means that as the value of one variable increases, there is a corresponding decrease in the other variable.
- Two variables can also have a non-linear correlation as shown in the lower left plot. This means that a change in one variable will not always correspond to the same change in the other variable. This is indicated by the curve in the scatter plot as opposed to something closer to a straight line for linear correlation. 
-There can also be no correlation between two variables. In this case, you will see something like randomly placed dots as displayed in the lower right plot, indicating no relationship between how the two variables change with respect to each other.
-*Bar Plot*
+
+Two variables can also have a non-linear correlation as shown in the lower left plot. This means that a change in one variable will not always correspond to the same change in the other variable. This is indicated by the curve in the scatter plot as opposed to something closer to a straight line for linear correlation. 
+
+There can also be no correlation between two variables. In this case, you will see something like randomly placed dots as displayed in the lower right plot, indicating no relationship between how the two variables change with respect to each other.</br>
+
+**Bar Plot**
 A bar plot is used to show the distribution of categorical variables. Recall that a histogram is also used to look at the distribution of the values of the variable. The difference is that in general, a histogram is used for numeric variables whereas a bar plot is used for categorical variables. In a bar chart, the different categories of a categorical variable is shown along the x-axis, and the count of instances for each category is displayed on the y-axis. This is an effective way to compare the different categories. 
  
 A bar plot is also a great way to compare two categorical variables. For example, this plot compares two categorical variables. One in blue and the other in orange, each with three different categories. Here you can see that for the first category, the blue variable has the higher count, while the orange variable has a higher count for the second and third category. This type of Bar Plot is called a Grouped Bar Chart. And the different variables of products side by side. 
-A different kind of comparison can be performed using a Stacked Bar chart as seen in a lower right quad. Here, the accounts for the two variables are stacked on top of each other for each category. With this bar chart, you can determine that the combined count for the first category is about equal to the combine count for the second category, while the compliant count for the third category is much larger. 
-*Box Plot*
+A different kind of comparison can be performed using a Stacked Bar chart as seen in a lower right quad. Here, the accounts for the two variables are stacked on top of each other for each category. With this bar chart, you can determine that the combined count for the first category is about equal to the combine count for the second category, while the compliant count for the third category is much larger. </br>
+
+**Box Plot**
  
 A box plot is another plot that shows the distribution of a numeric variable, it shows the distribution in a different format than the histogram. This is how a box plot displays the distribution of values for a variable, the gray portion in the figure is the box part. The lower and upper boundaries of the box represent the 25th and 75th percentiles respectively. This means that the box represents the middle 50% of the data, the median is the 50th percentile, meaning that 50% of the data is greater than its value and 50% of the data is less than this value. The top and bottom lines are the Whiskers and represent the 10th and 90th percentiles respectively. So, 80% of the data are in the region indicated by the upper extreme and lower extreme. Any data values outside of this region are outliers and are indicated as single point on the box plot. 
 Box plots provide a compact way to show how variables are distributed, so they are often used to compare variables. The box plot on the left for example compares the base salary for two different roles.
